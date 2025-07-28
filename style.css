@@ -124,6 +124,10 @@ input:focus{
     transform: scaleX(-1);
 }
 
+.footer{
+    color: white;
+    margin-top: 5px;
+}
 
 
 
