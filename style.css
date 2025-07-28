@@ -13,6 +13,7 @@ button{
     font-weight: 550;
     border-radius: 5px;
     align-self: center;
+    cursor: pointer;
 }
 button:hover {
     background-color: rgb(95, 39, 100);
@@ -30,8 +31,10 @@ input{
 
 object{
     height: 120px;
-    
-    
+}
+
+focus{
+    font-weight: 600;
 }
 
 input:focus{
@@ -46,7 +49,7 @@ input:focus{
     align-items: center;
     overflow: hidden;
     margin: auto;
-    padding: 20px 10px;
+    padding: 20px;
     border-radius: 10px;
     max-width: 900px;
     width: auto;
@@ -57,6 +60,7 @@ input:focus{
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 20px;
+    text-align: center;
     }
 
 .subtitle{
@@ -129,5 +133,38 @@ input:focus{
     margin-top: 5px;
 }
 
+@media screen and (max-width: 730px){
 
+html{
+    font-size: 14px;
+}
 
+input{
+    width: 90%;
+    margin-top: 20px;
+}
+.container{
+    flex-direction: column;
+     padding:40px;
+}
+
+.subtitle{
+    color: white;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+    
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.button-box-ext{
+    width: 80%;
+}
+
+}
